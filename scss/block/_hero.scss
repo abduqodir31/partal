@@ -1,0 +1,48 @@
+.hero {
+  background-color: #fafafa;
+  height: 100vh;
+  padding-top: 48px;
+}
+.hero__main-block{
+
+  padding-bottom: 48px;
+}
+.hero__block {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  max-width: 480px;
+  padding: 18px 37px;
+  background: #fff;
+}
+.hero__image{
+  width: 18px;
+  height: 18px;
+}
+.hero__put {
+  border: none;
+  outline: none;
+  width: 100%;
+  font-family: "Nunito Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #848484;
+}
+.hero__sec {
+  border: none;
+  outline: none;
+padding: 18px 24px ;
+
+}
+.hero__container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Nunito Sans';
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+color: #111517;
+
+}
