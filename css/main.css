@@ -117,6 +117,8 @@ ul, ol {
 
 .hero__main-block {
   padding-bottom: 48px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .hero__block {
@@ -171,6 +173,43 @@ ul, ol {
   color: #111517;
 }
 
+@media screen and (max-width: 600px) {
+  .hero__container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .hero__block {
+    padding: 18px 155px;
+    margin-bottom: 40px;
+  }
+  .hero__sec {
+    padding: 20px 40px;
+    margin-left: -55%;
+  }
+}
+@media screen and (max-width: 545px) {
+  .hero__block {
+    padding: 10px;
+    margin-left: -6%;
+    padding-right: 155px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .hero__put {
+    max-width: 158px;
+  }
+  .hero__block {
+    padding: 10px;
+    margin-left: -6%;
+    padding-right: 155px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
 .choose__list {
   padding-left: 0;
   display: -webkit-box;
@@ -183,6 +222,11 @@ ul, ol {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-bottom: 75px;
+}
+
+.choose {
+  background-color: #fafafa;
+  height: 100vh;
 }
 
 .choose__image {
@@ -223,4 +267,23 @@ ul, ol {
 
 .choose__mix-block {
   padding: 20px 25px 46px 24px;
+}
+
+@media screen and (max-width: 1349px) {
+  .choose__list {
+    padding: 0 50px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 74px;
+  }
+}
+@media screen and (max-width: 702px) {
+  .choose__list {
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }/*# sourceMappingURL=main.css.map */

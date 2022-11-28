@@ -3,9 +3,10 @@
   height: 100vh;
   padding-top: 48px;
 }
-.hero__main-block{
-
+.hero__main-block {
   padding-bottom: 48px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 .hero__block {
   display: flex;
@@ -15,7 +16,7 @@
   padding: 18px 37px;
   background: #fff;
 }
-.hero__image{
+.hero__image {
   width: 18px;
   height: 18px;
 }
@@ -32,17 +33,50 @@
 .hero__sec {
   border: none;
   outline: none;
-padding: 18px 24px ;
-
+  padding: 18px 24px;
 }
-.hero__container{
+.hero__container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-family: 'Nunito Sans';
-font-weight: 400;
-font-size: 14px;
-line-height: 20px;
-color: #111517;
-
+  font-family: "Nunito Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #111517;
+}
+@media screen and (max-width: 600px) {
+  .hero__container {
+    flex-direction: column;
+  }
+  .hero__block {
+    padding: 18px 155px;
+    margin-bottom: 40px;
+  }
+  .hero__sec{
+    padding: 20px 40px;
+    margin-left: -55%;
+  }
+}
+@media screen and (max-width:545px) {
+  .hero__block{
+    padding: 10px;
+    margin-left: -6%;
+    padding-right: 155px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+@media screen and (max-width:400px) {
+  .hero__put{
+    max-width: 158px;
+    
+  }
+  .hero__block{
+    padding: 10px;
+    margin-left: -6%;
+    padding-right: 155px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
 }
